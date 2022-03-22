@@ -4,7 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cronograma</title>
+    <style>
+        table {
+            border: 1px solid;
+            border-spacing: 1;
+            width: 100%;
+            
+        }
+        th{
+            border: 1px solid;
+        }
+        td{
+            border: 1px solid;
+            padding: 20px;
+        }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Cronograma</h1>
+    </header>
+    <main>
+      <div align="center">
+        <img style="width: 200px" src="./images/calendario.png" alt="" />
+      </div>
+      <table border="5" align="center" style="width: 800px; height: 200px">
+        <thead>
+          <tr>
+            <th><span>&#8987</span></th>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>08:00 - 12:00</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Folga</td>
+            <td>Descansar</td>
+          </tr>
+          <tr>
+            <td>12:00 - 13:00</td>
+            <td colspan="7" align="center">Almoçar</td>
+          </tr>
+          <tr>
+            <td>13:00 - 15:00</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Folga</td>
+            <td rowspan="3">Descansar</td>
+          </tr>
+          <tr>
+            <td>15:00 - 18:00</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Folga</td>
+          </tr>
+          <tr>
+            <td>18:00 - 22:30</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Trabalho</td>
+            <td>Folga</td>
+          </tr>
+          <tr>
+            <td>22:30 - 08:00</td>
+            <td colspan="7" align="center">Dormir</td>
+          </tr>
+        </tbody>
+            <footer>
+                <tr>
+                    <td colspan="8" align="center">
+                        <img src="./images/logo-dark.png" alt="">
+                    </td>
+                </tr>
+            </footer>
+       
+      </table>
+    </main>
+  </body>
 </html>
